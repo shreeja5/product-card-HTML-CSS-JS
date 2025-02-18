@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <link rel="stylesheet" href="index style.css">
+</head>
+<body>
+
+    <div class="product-container">
+        <!-- Product Card 1 -->
+        <div class="product-card">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.NL2Ix6cVXP1BBuCnd9-FsgHaE8&pid=Api&P=0&h=180" alt="Sneakers">
+            <div class="product-info">
+                <h3>Sneakers</h3>
+                <p class="product-price">2000</p>
+                <button class="add-to-cart" onclick="addToCart('Sneakers', 2000)">Add to Cart</button>
+            </div>
+        </div>
+        
+        <!-- Product Card 2 -->
+        <div class="product-card">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.1wV5va8VRuA06ytdeKdFXAAAAA&pid=Api&P=0&h=180" alt="Skin care">
+            <div class="product-info">
+                <h3>skin care</h3>
+                <p class="product-price">700</p>
+                <button class="add-to-cart" onclick="addToCart('Skin care', 700)">Add to Cart</button>
+            </div>
+        </div>
+        
+        <!-- Product Card 3 -->
+        <div class="product-card">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.8Wre6dZDWD-ucs26AJc4lQHaJ4&pid=Api&P=0&h=180" alt="Watches">
+            <div class="product-info">
+                <h3>Watches</h3>
+                <p class="product-price">3000</p>
+                <button class="add-to-cart" onclick="addToCart('Watches', 3000)">Add to Cart</button>
+            </div>
+        </div>
+        <!-- Product Card 4 -->
+        <div class="product-card">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.LvZOSkXhykTlm82wd9Pm1QHaHa&pid=Api&P=0&h=180" alt="Lights and Lamps">
+            <div class="product-info">
+                <h3>Lights and Lamps</h3>
+                <p class="product-price">2000</p>
+                <button class="add-to-cart" onclick="addToCart('Lights and Lamps', 2000)">Add to Cart</button>
+            </div>
+        </div>
+        <!-- Product Card 5 -->
+        <div class="product-card">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.iYt7Cbo0RicOf43jHvg0_gHaHa&pid=Api&P=0&h=180" alt="Sunglasses">
+            <div class="product-info">
+                <h3>Sunglasses</h3>
+                <p class="product-price">650</p>
+                <button class="add-to-cart" onclick="addToCart('Sunglasses', 650)">Add to Cart</button>
+            </div>
+        </div>
+        <!-- Product Card 6 -->
+        <div class="product-card">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.kXpy_wAy33KkTCZY30fAPAHaDo&pid=Api&P=0&h=180" alt="Teddybear">
+            <div class="product-info">
+                <h3>Teddybear</h3>
+                <p class="product-price">830</p>
+                <button class="add-to-cart" onclick="addToCart('Teddybear', 830)">Add to Cart</button>
+            </div>
+        </div>
+        <!-- Product Card 7 -->
+        <div class="product-card">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.tvEih67bYgPcL4EhaZA4SQHaHa&pid=Api&P=0&h=180" alt="Jacket">
+            <div class="product-info">
+                <h3>Jacket</h3>
+                <p class="product-price">1000</p>
+                <button class="add-to-cart" onclick="addToCart('Jacket', 1000)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart-info">
+        <h2>Your Cart</h2>
+        <ul id="cart-list"></ul>
+        <p id="total-price">Total: $0.00</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
